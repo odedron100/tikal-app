@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tikal-app/static/css/main.024708f4.css",
+    "main.js": "/tikal-app/static/js/main.6ba13738.js",
+    "static/js/787.467e66c5.chunk.js": "/tikal-app/static/js/787.467e66c5.chunk.js",
+    "index.html": "/tikal-app/index.html",
+    "main.024708f4.css.map": "/tikal-app/static/css/main.024708f4.css.map",
+    "main.6ba13738.js.map": "/tikal-app/static/js/main.6ba13738.js.map",
+    "787.467e66c5.chunk.js.map": "/tikal-app/static/js/787.467e66c5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.024708f4.css",
+    "static/js/main.6ba13738.js"
+  ]
+}
