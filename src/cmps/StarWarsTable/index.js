@@ -1,0 +1,1 @@
+export { StarWarsTable } from './StarWarsTable'
