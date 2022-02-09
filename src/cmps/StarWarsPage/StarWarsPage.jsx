@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import './StarWarsPage.css'
 import { getVehiclesNamesByLargestPopulations,getPlannetsToShow } from  '../../utils/starWarsApi'
-import Loading from "../Loading/Loading";
+import {Loading} from "../Loading/Loading";
 import { VehicleTable } from "../VehicleTable/VehicleTable";
 import { PlanetPopulation } from "../PlanetPopulation/PlanetPopulation";
 

@@ -8,7 +8,7 @@ import {
 
 import './Loading.css'
 
-const Loading = ({loadingSubject}) => {
+export const Loading = ({loadingSubject}) => {
   console.log('loadingSubject from loading', loadingSubject);
   switch(loadingSubject) {
     case BASIC_DATA_LOADING: {
@@ -60,5 +60,3 @@ const ProgressBar = () => {
       </div>
     );
 }
-
-export default Loading
