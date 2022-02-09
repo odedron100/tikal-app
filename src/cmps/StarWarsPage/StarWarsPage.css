@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+.star-wars-page-container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.star-wars-page{
+  width: 100%;
+}
+
+/* error-msg */
+
+.error-msg{
+  margin-top: 30px;
+  font-size: 22px;
+}

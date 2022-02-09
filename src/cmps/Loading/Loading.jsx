@@ -1,9 +1,12 @@
+
 import {
   BASIC_DATA_LOADING,
   VEHICLES_DATA_LOADING,
   PILOTS_DATA_LOADING,
   HOMEPLANET_DATA_LOADING
 } from  '../../utils/starWarsApi'
+
+import './Loading.css'
 
 const Loading = ({loadingSubject}) => {
   console.log('loadingSubject from loading', loadingSubject);
@@ -58,4 +61,4 @@ const ProgressBar = () => {
     );
 }
 
-export default Loading;
+export default Loading

@@ -1,10 +1,9 @@
-import { StarWarsTable } from './cmps/StarWarsTable/StarWarsTable'
-import './App.css';
+import { StarWarsPage } from './cmps/StarWarsPage/StarWarsPage'
 
 function App() {
   return (
     <div className="App">
-      <StarWarsTable />
+      <StarWarsPage />
     </div>
   );
 }

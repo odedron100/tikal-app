@@ -1,0 +1,59 @@
+/* CHARTS */
+.planets-population-charts-container{
+  width: 100%;
+  animation: chrarts-width 0.7s ease-in-out forwards;
+  display: flex;
+  justify-content: space-between;
+  height: 500px;
+  overflow: hidden;
+  width: 1000px;
+  margin: auto;
+  background: #80808000;
+}
+
+.chart-container{
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  width: 170px;
+  background-color: #9e9e9e14;
+}
+
+.chart-container .chart{
+  background-color: antiquewhite;
+  cursor: pointer;
+  transition-duration: .3s;
+  position: relative;
+  overflow: hidden;
+  border-radius: 3px;
+  animation: chrarts-height 1.7s ease-in-out forwards;
+}
+
+.chart-container .chart:hover{
+  transform: scale(1.03);
+}
+
+.chart-container  .chart-details{
+   transition: bottom 0.2s ease-in-out;
+    position: absolute;
+    bottom: -105px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    color: white;
+    background: linear-gradient(transparent, #000000b8);
+    padding: 5px;
+    font-weight: 600;
+}
+
+.chart-details .item{
+  text-align: center;
+}
+
+.chart:hover .chart-details{
+  bottom: 0;
+}
+
+@keyframes chrarts-height {
+  0% { height: 0%; }
+}
